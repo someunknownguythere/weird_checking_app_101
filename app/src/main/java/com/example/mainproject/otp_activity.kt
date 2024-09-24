@@ -39,7 +39,7 @@ import java.util.concurrent.TimeUnit
      override fun onCreate(savedInstanceState: Bundle?) {
          super.onCreate(savedInstanceState)
          setContentView(R.layout.activity_otp)
-         var phonenumber : String = ""
+         var phonenumber : String "" // add anything or link from settings kt file
          phoneip.setText(phonenumber)
          phoneLl.visibility = View.VISIBLE
          code.visibility = View.GONE
